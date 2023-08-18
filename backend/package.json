@@ -1,0 +1,15 @@
+{
+  "name": "chatgpt-voice-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for ChatGPT Voice App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "@google-cloud/speech": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5"
+  }
+}
